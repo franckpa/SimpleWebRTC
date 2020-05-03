@@ -9,7 +9,7 @@ function SimpleWebRTC(opts) {
     var self = this;
     var options = opts || {};
     var config = this.config = {
-            url: 'http://localhost:8888/',
+            url: 'https://signal-server-uvid.herokuapp.com/',
             socketio: {/* 'force new connection':true*/},
             connection: null,
             debug: false,
